@@ -11,7 +11,7 @@ public class AnagramChecker {
     }
 
     public boolean isAnagram(String first, String second) {
-        if (first.length() != second.length()) {
+        if (first == null || second == null || first.length() != second.length()) {
             return false;
         }
 
